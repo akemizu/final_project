@@ -8,7 +8,7 @@ import lemonDessert from '../../assets/lemondessert.jpg';
 const meals = [
   {
     name: "Greek Salad",
-    image: {greekSalad},
+    image: greekSalad,
     price: "$8.00",
     description: `The famous greek salad of crispy lettuce, peppers, olives and
       our Chicago style feta cheese, garnished with crunchy garlic and rosemary
@@ -16,14 +16,14 @@ const meals = [
   },
   {
     name: "Bruschetta",
-    image: {bruschetta},
+    image: bruschetta,
     price: "$6.99",
     description: `Our Bruschetta is made from grilled bread that has been
       smeared with garlic and seasoned with salt and olive oil.`,
   },
   {
     name: "Lemon Dessert",
-    image: {lemonDessert},
+    image: lemonDessert,
     price: "$7.49",
     description: `This comes straight from grandma's recipe book, every last
       ingredient has been sourced and is as authentic as can be imagined.`,

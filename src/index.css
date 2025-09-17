@@ -32,7 +32,7 @@ header {
 }
 
 main {
-  padding-top: 6.25rem;
+  padding-top: 5.25rem;
   min-height: calc(100vh - 6.25rem - 18rem);
 }
 
