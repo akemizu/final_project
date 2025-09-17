@@ -1,8 +1,8 @@
 import "./story.css";
+import chefsImg1 from '../../assets/marioadrian1.jpg';
+import chefsImg2 from '../../assets/marioadrian2.jpg';
 
 const OurStory = () => {
-    const chefsImg1 = './assets/marioadrian1.jpg';
-    const chefsImg2 = './assets/marioadrian2.jpg';
 
   return (
     <section className="container grid story" id="about">

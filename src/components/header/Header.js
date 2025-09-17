@@ -4,10 +4,10 @@ import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./header.css";
 import { Link } from "react-router-dom";
+import logoImage from '../../assets/logo.png';
 
 const Header = ({ navLinks }) => {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
-  const logoImage = './assets.logo.png';
 
   return (
     <header>

@@ -13,11 +13,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { HashLink } from "react-router-hash-link";
 import "./footer.css";
 
-const logoImg = './assets/logo-white.png'
+import logoImg from '../../assets/logo-white.png';
 
 const contacts = [
-  { icon: faLocationDot, info: "123 Fake Ave, Chicago, IL 60602" },
-  { icon: faPhone, info: "+1 (012) 345-6789" },
+  { icon: faLocationDot, info: "123 Random Avenue, Chicago, IL 60602" },
+  { icon: faPhone, info: "+1 (872) 555-5555" },
   { icon: faEnvelope, info: "info@littlelemon.com" },
 ];
 

@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { HashLink } from "react-router-hash-link";
 import "./mealcard.css";
 
-const MealCard = ({ meal }) => {
+const MealCard = ({meal}) => {
   return (
     <article className="meal-card">
       <div className="meal-card-image">
@@ -16,7 +16,7 @@ const MealCard = ({ meal }) => {
       <div className="meal-card-body-footer">
         <p>{meal.description}</p>
         <HashLink to="/orderOnline">
-          Order a delivery <FontAwesomeIcon icon={faMotorcycle} />
+          Order a Delivery <FontAwesomeIcon icon={faMotorcycle} />
         </HashLink>
       </div>
     </article>

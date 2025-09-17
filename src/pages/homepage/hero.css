@@ -10,6 +10,7 @@
 
 .hero-information {
   grid-column: 1;
+  padding-top: 2rem;
 }
 
 .hero-information h1 {

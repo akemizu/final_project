@@ -1,8 +1,8 @@
 import { HashLink } from "react-router-hash-link";
 import "./hero.css";
+import restaurantFood from '../../assets/restaurantfood.jpg';
 
 const Hero = () => {
-    const restaurantFood = './assets/restaurantfood.jpg'
     return (
         <section className="hero">
             <div className="container grid">
