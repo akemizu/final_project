@@ -1,7 +1,6 @@
 import "./specials.css";
-import MealCard from './MealCard';
+import MealCard from '../../components/ui/card/MealCard';
 import { HashLink } from "react-router-hash-link";
-
 import greekSalad from '../../assets/greeksalad.jpg';
 import bruschetta from '../../assets/bruschetta.jpg';
 import lemonDessert from '../../assets/lemondessert.jpg';
